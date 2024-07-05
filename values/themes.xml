@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NotePad" parent="Theme.AppCompat.DayNight">
+
+        <item name="colorPrimary">@color/lightCoral</item>
+        <item name="colorPrimaryVariant">@color/lightCoral</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/lightCoral</item>
+        <item name="colorSecondaryVariant">@color/lightCoral</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorOnPrimarySurface">@color/white</item>
+        <item name="android:searchButtonText">@color/black</item>
+        <item name="searchHintIcon">@color/black</item>
+
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorPrimaryDark">@color/lightCoral</item>
+        <item name="colorAccent">@color/lightCoral</item>
+        <item name="colorPrimaryVariant">@color/lightCoral</item>
+        <item name="colorOnPrimarySurface">@color/white</item>
+        <item name="android:searchButtonText">@color/black</item>
+        <item name="searchHintIcon">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/lightCoral</item>
+        <item name="colorSecondaryVariant">@color/lightCoral</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:colorForeground">@color/white</item>
+
+    </style>
+
+    <style name="Theme.NotePad" parent="Base.Theme.NotePad" />
+</resources>
